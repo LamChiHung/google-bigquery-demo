@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bigquery
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Hoanglekha@123
+    url: jdbc:mysql://localhost:3306/cg-shopee-app-v2
+
+
